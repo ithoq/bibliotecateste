@@ -14,13 +14,13 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 -- -----------------------------------------------------
 -- Schema mydb
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
-USE `mydb` ;
+CREATE SCHEMA IF NOT EXISTS `biblioteca` DEFAULT CHARACTER SET utf8 ;
+USE `biblioteca` ;
 
 -- -----------------------------------------------------
--- Table `mydb`.`user`
+-- Table `biblioteca`.`user`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`user` (
+CREATE TABLE IF NOT EXISTS `biblioteca`.`user` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(255) NOT NULL COMMENT 'Nome do usuário',
   `email` VARCHAR(255) NOT NULL COMMENT 'E-mail do usuário',
@@ -30,9 +30,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`book_category`
+-- Table `biblioteca`.`book_category`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`book_category` (
+CREATE TABLE IF NOT EXISTS `biblioteca`.`book_category` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(125) NOT NULL COMMENT 'Nome da categoria',
   `deleted_at` DATETIME NULL,
@@ -41,9 +41,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`book`
+-- Table `biblioteca`.`book`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`book` (
+CREATE TABLE IF NOT EXISTS `biblioteca`.`book` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `id_book_category` INT NOT NULL,
   `name` VARCHAR(255) NOT NULL COMMENT 'Nome do livro',
@@ -52,16 +52,16 @@ CREATE TABLE IF NOT EXISTS `mydb`.`book` (
   INDEX `fk_book_book_category_idx` (`id_book_category` ASC),
   CONSTRAINT `fk_book_book_category`
     FOREIGN KEY (`id_book_category`)
-    REFERENCES `mydb`.`book_category` (`id`)
+    REFERENCES `biblioteca`.`book_category` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`renter`
+-- Table `biblioteca`.`renter`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`renter` (
+CREATE TABLE IF NOT EXISTS `biblioteca`.`renter` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(255) NOT NULL COMMENT 'Nome do locatário',
   `cpf` INT NOT NULL COMMENT 'CPF do locatário',
@@ -72,13 +72,13 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`rental`
+-- Table `biblioteca`.`rental`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`rental` (
+CREATE TABLE IF NOT EXISTS `biblioteca`.`rental` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `id_renter` INT NOT NULL,
   `id_book` INT NOT NULL,
-  `rent_date` DATE NOT NULL DEFAULT NOW() COMMENT 'Data do aluguel',
+  `rent_date` DATE NULL  COMMENT 'Data do aluguel',
   `predicted_return_date` DATE NOT NULL COMMENT 'Data de previsão da devolução',
   `return_date` DATE NOT NULL COMMENT 'Data da devolução',
   `predicted_price` DOUBLE NOT NULL COMMENT 'Valor previsto do aluguel',
@@ -89,21 +89,21 @@ CREATE TABLE IF NOT EXISTS `mydb`.`rental` (
   INDEX `renter_book` (`id_book` ASC, `id_renter` ASC),
   CONSTRAINT `fk_renter_has_book_renter1`
     FOREIGN KEY (`id_renter`)
-    REFERENCES `mydb`.`renter` (`id`)
+    REFERENCES `biblioteca`.`renter` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_renter_has_book_book1`
     FOREIGN KEY (`id_book`)
-    REFERENCES `mydb`.`book` (`id`)
+    REFERENCES `biblioteca`.`book` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`user_log`
+-- Table `biblioteca`.`user_log`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`user_log` (
+CREATE TABLE IF NOT EXISTS `biblioteca`.`user_log` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `id_user` INT NOT NULL COMMENT 'Código do usuário',
   `id_book_category` INT NULL COMMENT 'código da categoria do livro',
@@ -121,27 +121,27 @@ CREATE TABLE IF NOT EXISTS `mydb`.`user_log` (
   INDEX `fk_user_log_renter1_idx` (`id_renter` ASC),
   CONSTRAINT `fk_user_log_user1`
     FOREIGN KEY (`id_user`)
-    REFERENCES `mydb`.`user` (`id`)
+    REFERENCES `biblioteca`.`user` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_user_log_book_category1`
     FOREIGN KEY (`id_book_category`)
-    REFERENCES `mydb`.`book_category` (`id`)
+    REFERENCES `biblioteca`.`book_category` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_user_log_book1`
     FOREIGN KEY (`id_book`)
-    REFERENCES `mydb`.`book` (`id`)
+    REFERENCES `biblioteca`.`book` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_user_log_rental1`
     FOREIGN KEY (`id_rental`)
-    REFERENCES `mydb`.`rental` (`id`)
+    REFERENCES `biblioteca`.`rental` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_user_log_renter1`
     FOREIGN KEY (`id_renter`)
-    REFERENCES `mydb`.`renter` (`id`)
+    REFERENCES `biblioteca`.`renter` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
