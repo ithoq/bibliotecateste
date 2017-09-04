@@ -7,26 +7,19 @@
 
 namespace Application\Controller;
 
-use Doctrine\ORM\EntityManager;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
 class IndexController extends AbstractActionController
 {
-    protected $entityManager;
-
-    public function __construct(EntityManager $entityManager)
-    {
-        $this->entityManager = $entityManager;
-    }
-
     public function indexAction()
     {
-        try {
-            $this->entityManager->getConnection()->connect();
-        } catch (\Exception $e) {
-            // failed to connect
-        }
+        return new ViewModel();
+    }
+
+    public function loginAction()
+    {
+        echo "<pre>";var_dump('asdfasdf');echo "</pre>";exit;
         return new ViewModel();
     }
 }
