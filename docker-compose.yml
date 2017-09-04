@@ -1,0 +1,20 @@
+zf:
+  build: .
+  dockerfile: Dockerfile
+  ports:
+   - "8080:80"
+  volumes:
+   - .:/var/www
+  links:
+    - mysql:bibliotecadb
+
+mysql:
+    image: tutum/mysql
+    ports:
+      - "3319:3306"
+    volumes:
+      - /var/lib/mysql
+    environment:
+      MYSQL_USER: biblioteca
+      MYSQL_PASS: 123123
+      ON_CREATE_DB: biblioteca
