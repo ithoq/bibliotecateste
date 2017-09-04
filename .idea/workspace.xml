@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d36aaf9-43cc-4d9f-be5b-c454e9f7d330" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DOCS/mysql-structure.sql" afterPath="$PROJECT_DIR$/DOCS/mysql-structure.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,15 +16,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="450">
-                <caret line="30" column="84" lean-forward="false" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="mysql-structure.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DOCS/mysql-structure.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="154" column="132" lean-forward="false" selection-start-line="154" selection-start-column="132" selection-end-line="154" selection-end-column="132" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,8 +45,8 @@
         <option value="$PROJECT_DIR$/module/Application/Entity/Renter.php" />
         <option value="$PROJECT_DIR$/module/Application/Entity/BookCategory.php" />
         <option value="$PROJECT_DIR$/module/Application/Entity/Rental.php" />
-        <option value="$PROJECT_DIR$/DOCS/mysql-structure.sql" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/DOCS/mysql-structure.sql" />
       </list>
     </option>
   </component>
@@ -184,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504526138077</updated>
-      <workItem from="1504526139680" duration="5429000" />
+      <workItem from="1504526139680" duration="6044000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando DER">
       <created>1504533516473</created>
@@ -207,11 +205,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504533965288</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Criando readme.md">
+      <created>1504534538252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1504534538252</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5429000" />
+    <option name="totallyTimeSpent" value="6044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
@@ -246,7 +251,8 @@
     <MESSAGE value="Adicionando DER" />
     <MESSAGE value="Estrutura inicial do Mysql" />
     <MESSAGE value="Arrumando estrutura mysql para criar tb" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrumando estrutura mysql para criar tb" />
+    <MESSAGE value="Criando readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -375,14 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOCS/mysql-structure.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1284">
-          <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -391,14 +389,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/LICENSE.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="30" column="84" lean-forward="false" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOCS/mysql-structure.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="154" column="132" lean-forward="false" selection-start-line="154" selection-start-column="132" selection-end-line="154" selection-end-column="132" />
+          <folding />
         </state>
       </provider>
     </entry>

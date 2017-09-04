@@ -15,14 +15,14 @@ Como Buildar e iniciar a imagem:
 $ docker-compose up -d --build
 ```
 
-Acesse http://localhost:8080 para ver o site.
-
 O nome da imagem será
 "zf", então para executar comandos no servidor execute `docker-compose run`:
 
 ```bash
 $ docker-compose run zf composer install
 ```
+
+Acesse http://localhost:8080 para ver o site.
 
 ## Mysql
 
