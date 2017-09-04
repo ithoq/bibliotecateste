@@ -19,7 +19,8 @@ class IndexController extends AbstractActionController
 
     public function loginAction()
     {
-        echo "<pre>";var_dump('asdfasdf');echo "</pre>";exit;
-        return new ViewModel();
+        $view = new ViewModel();
+        $view->setTerminal(true);
+        return $view;
     }
 }

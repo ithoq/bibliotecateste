@@ -2,243 +2,163 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d36aaf9-43cc-4d9f-be5b-c454e9f7d330" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Material-Design-Iconic-Font.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Material-Design-Iconic-Font.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Material-Design-Iconic-Font.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Material-Design-Icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Material-Design-Icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Material-Design-Icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/materialdesignicons-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/materialdesignicons-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/materialdesignicons-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/slick.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/slick.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/summernote.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/summernote.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/weathericons-regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/weathericons-regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/weathericons-regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/weathericons-regular-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/_DS_Store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/ecom-header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/10497_QZPw.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/10497_R0wd.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/10497_iGAk.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/10499_Oqpe.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/10499_V431.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/10499_elhB.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12252_Tgi0.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12252_ZdMt.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12254_3huK.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12254_SdG0.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12254_jASi.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12284_CsFA.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12284_Qmka.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12284_obgy.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12300_eywe.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12300_nEOr.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12300_yeui.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12333_MP1W.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12333_PqFG.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12361_1Tww.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12361_E74p.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12361_nimh.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12364_XoTi.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12364_n6Ei.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/12364_qfN0.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/1285_8Kix.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/1285_Ib9s.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/1285_QtPJ.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/1310_6Qyw.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/1310_IKdD.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/1310_rxxV.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/144_NPeH.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/144_ecTn.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/144_zOlH.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/1850_N6ck.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/1850_O8Rv.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/2830_S4ql.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/2830_drnw.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/2830_inl3.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/3842_D6l5.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/3842_Lnmb.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/3842_uAVv.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/39_8wMD.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/39_Ie8T.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/39_JnFC.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/4107_N8j0.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/4107_PPxC.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/4107_yiWt.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/4108_CGrv.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/4108_QeFT.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/4108_f6Xw.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/420_N36e.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/420_dEPl.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/549_9Yrg.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/549_LRqC.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/549_NSST.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/5654_6XJf.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/5654_c1Dp.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/5654_t6xQ.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/5764_YK7g.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/5764_s0Nq.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/5764_t0V1.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/5922_6Td6.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6160_01u5.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6160_9usp.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6160_RdXd.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6165_GJcy.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6165_l63L.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6165_zNw9.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6828_I7fw.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6828_OGKl.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6828_QfEz.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6828_xwCD.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6920_4vBv.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6920_9naK.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/6920_FeuF.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/7450_2Y7F.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/7450_adzL (1).jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/7450_adzL.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/7450_e8Rz (1).jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/7450_e8Rz.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/7700_rDqZ.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/7700_tKGH.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/8292_MHg7.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/8293_gLXg.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/8747_U7ol.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/8747_XhFs.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/8747_quUK.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9232_6pco.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9232_kd48.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9232_sTq2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9484_5SEQ.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9484_f3Xg.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9484_weNe (1).jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9484_weNe.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9728_3iWd.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9728_HfMn.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9728_VUPB.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9997_410I.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9997_Tv74.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ecom/products/9997_t7T7.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/cc/american-express.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/cc/discover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/cc/mastercard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/cc/visa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AG.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AI.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AM.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AQ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AU.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AW.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AX.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/AZ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BA.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BB.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BG.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BI.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BJ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BM.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BW.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BY.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/BZ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CA.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CG.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CI.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CK.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CM.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CU.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CV.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CW.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CX.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CY.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/CZ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/DE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/DJ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/DK.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/DM.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/DO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/DZ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/EC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/flags/EE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/misc/coffee-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/misc/pin-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/misc/plane.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo/logo-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo/logo-icon@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo/ml-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Application/view/application/index/login.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/app.bundle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-a.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-c.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-d.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-e.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-f.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-g.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-h.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/vendor.bundle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/vendor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/autocomplete_countries.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Material-Design-Iconic-Font.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Material-Design-Icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/default-skin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/materialdesignicons-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/mejs-controls.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/slick.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/weathericons-regular-webfont.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/zf-logo-mark.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery-3.1.0.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOCS/processo_seletivo_2017.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/backgrounds/bg-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/april.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/august.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/december.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/february.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/january.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/july.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/june.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/march.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/may.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/november.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/october.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/calendar/september.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/fileupload/fileupload-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/thumbs/thumb-30.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/thumbs/thumb-31.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/thumbs/thumb-32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/dog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-lg-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-lg-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-lg-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-lg-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-lg-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-lg-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-md-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-vertical-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-vertical-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-sm-vertical-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/header-square-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/headers/profile-header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/EOZpjI3oSqKPNnF2S4Tp_Untitled.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1421986598195-0d9c26ecfcde.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1429681601148-75510b2cef43.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1432107294469-414527cb5c65.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1442975631115-c4f7b05b8a2c.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1446226760091-cc85becf39b4.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1449198063792-7d754d6f3c80.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1461072905169-7ca88b4d7b77.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1461963040894-7ee721035376.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1476386633426-499f460f6732.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1480348709911-be15f2c579ff.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1483204358806-afc5571f655b.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1483274816418-3975509c8f78.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1483648969698-5e7dcaa3444f.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1484805410139-353f84adfc96.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/photo-1484863083876-c0bf99ddaa61.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/shop_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/shop_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/shop_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/shop_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/shop_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/shop_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/shop_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/shop_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/shop_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/shop_9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/locations/unsplash-bonus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/mejs-controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photoSwipe/default-skin/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photoSwipe/default-skin/default-skin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photoSwipe/default-skin/preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/blank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/large_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/large_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/large_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/large_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/large_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/large_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/large_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/mascot.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/mj.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/profiles/rn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/timeline/timeline_large_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/timeline/timeline_large_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/timeline/timeline_large_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/timeline/timeline_large_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/timeline/timeline_small_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/timeline/timeline_small_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/timeline/timeline_small_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/timeline/timeline_small_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/big_buck_bunny.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/big_buck_bunny.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/flashmediaelement.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/fullscreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/fullscreen@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/mejs-controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/pause@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/play@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/speaker-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/speaker-2@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/speaker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/speaker@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photoSwipe/default-skin/default-skin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app.bundle.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/vendor.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/vendor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/mediaelement.srt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/mejs-controls.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/_preloader.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.config.php" afterPath="$PROJECT_DIR$/config/application.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/config/module.config.php" afterPath="$PROJECT_DIR$/module/Application/config/module.config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" afterPath="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/view/application/index/login.phtml" afterPath="$PROJECT_DIR$/module/Application/view/application/index/login.phtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -253,8 +173,8 @@
       <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="285">
+              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
                 <element signature="e#315#364#0#PHP" expanded="true" />
               </folding>
@@ -272,22 +192,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.phtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.phtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/Application/view/application/index/login.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="140" column="7" lean-forward="false" selection-start-line="140" selection-start-column="7" selection-end-line="140" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="645">
+              <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+              <folding>
+                <marker date="1504543674000" expanded="true" signature="1120:1148" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -323,6 +235,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -339,9 +254,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/DOCS/mysql-structure.sql" />
         <option value="$PROJECT_DIR$/module/Application/src/Controller/LoginController.php" />
-        <option value="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/config/application.config.php" />
         <option value="$PROJECT_DIR$/module/Application/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/module/Application/view/application/index/login.phtml" />
       </list>
     </option>
@@ -383,38 +298,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -620,38 +503,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autoload" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -668,10 +519,10 @@
       <recent name="$PROJECT_DIR$/module/Application/view/application" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DOCS" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/module/Application/src/Controller" />
       <recent name="$PROJECT_DIR$/module/Application/view" />
-      <recent name="$PROJECT_DIR$/DOCS" />
       <recent name="$PROJECT_DIR$/module/Application/Entity" />
     </key>
   </component>
@@ -697,7 +548,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504526138077</updated>
-      <workItem from="1504526139680" duration="7439000" />
+      <workItem from="1504526139680" duration="8411000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando DER">
       <created>1504533516473</created>
@@ -734,11 +585,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504541819483</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Criando rota, e adicionando css">
+      <created>1504543361064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1504543361064</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7439000" />
+    <option name="totallyTimeSpent" value="8411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
@@ -748,6 +606,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -774,7 +633,8 @@
     <MESSAGE value="Arrumando estrutura mysql para criar tb" />
     <MESSAGE value="Criando readme.md" />
     <MESSAGE value="Adicionando usuario na user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando usuario na user" />
+    <MESSAGE value="Criando rota, e adicionando css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando rota, e adicionando css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -915,16 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#315#364#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/autoload/development.local.php.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -975,19 +825,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/view/application/index/login.phtml">
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="140" column="7" lean-forward="false" selection-start-line="140" selection-start-column="7" selection-end-line="140" selection-end-column="7" />
+        <state relative-caret-position="525">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+    <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#315#364#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/view/application/index/login.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding>
+            <marker date="1504543674000" expanded="true" signature="1120:1148" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
