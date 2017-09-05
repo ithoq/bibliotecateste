@@ -16,11 +16,13 @@
         "zendframework/zend-component-installer": "^1.0 || ^0.7 || ^1.0.0-dev@dev",
         "zendframework/zend-mvc": "^3.0.1",
         "zfcampus/zf-development-mode": "^3.0",
-        "doctrine/doctrine-orm-module": "^1.0.9"
+        "doctrine/doctrine-orm-module": "^1.0.9",
+        "zendframework/zend-authentication": "^2.5"
     },
     "autoload": {
         "psr-4": {
-            "Application\\": "module/Application/src/"
+            "Application\\": "module/Application/src/",
+            "User\\": "module/User/src/"
         }
     },
     "autoload-dev": {

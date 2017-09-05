@@ -16,11 +16,4 @@ class IndexController extends AbstractActionController
     {
         return new ViewModel();
     }
-
-    public function loginAction()
-    {
-        $view = new ViewModel();
-        $view->setTerminal(true);
-        return $view;
-    }
 }

@@ -14,6 +14,7 @@ return [
     'Zend\Router',
     'Zend\Validator',
     'Application',
+    'User',
     'DoctrineModule',
     'DoctrineORMModule',
 ];
