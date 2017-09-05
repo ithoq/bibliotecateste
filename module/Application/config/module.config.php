@@ -36,11 +36,11 @@ return [
             // not logged in users. Restrictive mode is more secure and recommended to use.
             'mode' => 'restrictive'
         ],
-        'controllers' => [
-            Controller\IndexController::class => [
-                ['actions' => ['index'], 'allow' => '@']
-            ],
-        ]
+//        'controllers' => [
+//            Controller\IndexController::class => [
+//                ['actions' => ['index'], 'allow' => '@']
+//            ],
+//        ]
     ],
     'controllers' => [
         'factories' => [
