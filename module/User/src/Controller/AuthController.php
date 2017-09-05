@@ -114,11 +114,14 @@ class AuthController extends AbstractActionController
             }
         }
 
-        return new ViewModel([
+        $vm = new ViewModel();
+        $vm->setTerminal(true);
+        $vm->setVariables([
             'form' => $form,
             'isLoginError' => $isLoginError,
             'redirectUrl' => $redirectUrl
         ]);
+        return $vm;
     }
 
     /**

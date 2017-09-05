@@ -59,7 +59,7 @@
                     <?php
                     $form->get('email')->setAttributes([
                         'class' => 'form-control',
-                        'placeholder' => 'Email address',
+                        'placeholder' => 'Email',
                         'required' => true,
                         'autofocus' => true
                     ])
@@ -76,13 +76,17 @@
                         ]);
 
                     ?>
-                    <form class="animated fadeIn validate" id="" name="">
+                    <form class="animated fadeIn validate" method="post">
                         <div class="row form-row m-l-20 m-r-20 xs-m-l-10 xs-m-r-10">
                             <div class="col-md-6 col-sm-6">
                                 <?= $this->formElement($form->get('email')); ?>
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <?= $this->formElement($form->get('password')); ?>
+                            </div>
+                            <?= $this->formElement($form->get('csrf')) ?>
+                            <div class="col-md-12 col-sm-12">
+                                <button class="pull-right btn btn-primary btn-cons" type="submit">Sign in</button>
                             </div>
                         </div>
                     </form>

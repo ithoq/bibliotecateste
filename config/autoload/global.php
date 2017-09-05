@@ -21,8 +21,9 @@ return [
             'orm_default' => [
                 'driverClass' => PDOMySqlDriver::class,
                 'params' => [
-                    'dns' => 'mysql:host:bibliotecadb',
-                    'user' => 'root',
+                    'host' => '127.0.0.1',
+                    'port' => '3319',
+                    'user' => 'biblioteca',
                     'password' => '123123',
                     'dbname' => 'biblioteca',
                 ]

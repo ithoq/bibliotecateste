@@ -2,7 +2,18 @@ FROM php:7.0-apache
 
 RUN apt-get update \
  && apt-get install -y git zlib1g-dev \
- && docker-php-ext-install zip \
+    bzip2 curl git less mysql-client sudo unzip zip \
+    libbz2-dev libfontconfig1 libfontconfig1-dev \
+    libfreetype6-dev libjpeg62-turbo-dev libpng12-dev libzip-dev \
+ && docker-php-ext-install bz2 && \
+    docker-php-ext-configure gd \
+        --with-freetype-dir=/usr/include/ \
+        --with-jpeg-dir=/usr/include/ && \
+    docker-php-ext-install gd && \
+    docker-php-ext-install iconv && \
+    docker-php-ext-install opcache && \
+    docker-php-ext-install pdo_mysql && \
+    docker-php-ext-install zip \
  && a2enmod rewrite \
  && sed -i 's!/var/www/html!/var/www/public!g' /etc/apache2/sites-available/000-default.conf \
  && mv /var/www/html /var/www/public \
