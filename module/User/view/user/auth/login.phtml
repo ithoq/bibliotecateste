@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <?= $this->headTitle('Biblioteca')->setSeparator(' - ')->setAutoEscape(false) ?>
+
+    <?= $this->headMeta()
+        ->appendName('viewport', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+        ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
+    ?>
+
+    <!-- Le styles -->
+    <?= $this->headLink(['rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'])
+        ->prependStylesheet($this->basePath('plugins/pace/pace-theme-flash.css'))
+        ->prependStylesheet($this->basePath('plugins/bootstrapv3/css/bootstrap.min.css'))
+        ->prependStylesheet($this->basePath('plugins/bootstrapv3/css/bootstrap-theme.min.css'))
+        ->prependStylesheet('https://fonts.googleapis.com/icon?family=Material+Icons')
+        ->prependStylesheet($this->basePath('plugins/animate.min.css'))
+        ->prependStylesheet($this->basePath('plugins/jquery-scrollbar/jquery.scrollbar.css'))
+        ->prependStylesheet($this->basePath('webarch/css/webarch.css'))
+    ?>
+
+    <!-- Scripts -->
+    <?= $this->headScript()
+        ->prependFile($this->basePath('plugins/pace/pace.min.js'))
+        ->prependFile($this->basePath('plugins/jquery/jquery-1.11.3.min.js'))
+        ->prependFile($this->basePath('plugins/bootstrapv3/js/bootstrap.min.js'))
+        ->prependFile($this->basePath('plugins/jquery-block-ui/jqueryblockui.min.js'))
+        ->prependFile($this->basePath('plugins/jquery-unveil/jquery.unveil.min.js'))
+        ->prependFile($this->basePath('plugins/jquery-scrollbar/jquery.scrollbar.min.js'))
+        ->prependFile($this->basePath('plugins/jquery-numberAnimate/jquery.animateNumbers.js'))
+        ->prependFile($this->basePath('plugins/jquery-validation/js/jquery.validate.min.js'))
+        ->prependFile($this->basePath('plugins/bootstrap-select2/select2.min.js'))
+        ->prependFile($this->basePath('webarch/js/webarch.js'))
+        ->prependFile($this->basePath('js/chat.js'))
+    ?>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="error-body no-top lazy" data-original="<?= $this->basePath('img/work.jpg') ?>" style="background-image: url('<?= $this->basePath('img/work.jpg') ?>')">
+<div class="container">
+    <div class="row login-container animated fadeInUp">
+        <div class="col-md-7 col-md-offset-2 tiles white no-padding">
+            <div class="p-t-30 p-l-40 p-b-20 xs-p-t-10 xs-p-l-10 xs-p-b-10">
+                <h2 class="normal">
+                    Entre com sua conta
+                </h2>
+                <p>
+                    Usuário: rm.moriya@gmail.com
+                    <br>
+                </p>
+                <p class="p-b-20">
+                    Senha: 123123
+                </p>
+            </div>
+            <div class="tiles grey p-t-20 p-b-20 no-margin text-black tab-content">
+                <div role="tabpanel" class="tab-pane active" id="tab_login">
+                    <?php
+                    $form->get('email')->setAttributes([
+                        'class' => 'form-control',
+                        'placeholder' => 'Email address',
+                        'required' => true,
+                        'autofocus' => true
+                    ])
+                        ->setLabelAttributes([
+                            'class' => 'sr-only'
+                        ]);
+                    $form->get('password')->setAttributes([
+                        'class' => 'form-control',
+                        'placeholder' => 'Password',
+                        'required' => true,
+                    ])
+                        ->setLabelAttributes([
+                            'class' => 'sr-only'
+                        ]);
+
+                    ?>
+                    <form class="animated fadeIn validate" id="" name="">
+                        <div class="row form-row m-l-20 m-r-20 xs-m-l-10 xs-m-r-10">
+                            <div class="col-md-6 col-sm-6">
+                                <?= $this->formElement($form->get('email')); ?>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <?= $this->formElement($form->get('password')); ?>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

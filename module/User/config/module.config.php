@@ -8,6 +8,7 @@
 namespace User;
 
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;
+use User\Controller\Factory\AuthControllerFactory;
 use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
@@ -27,11 +28,46 @@ return [
                     ],
                 ],
             ],
+            'auth' => [
+                'type' => Segment::class,
+                'options' => [
+                    'route'    => '/auth[/:action]',
+                    'constraints' => [
+                        'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
+                    ],
+                    'defaults' => [
+                        'controller' => Controller\AuthController::class,
+                        'action'     => 'login',
+                    ],
+                ],
+            ],
         ],
     ],
     'controllers' => [
         'factories' => [
             Controller\IndexController::class => InvokableFactory::class,
+            Controller\AuthController::class => AuthControllerFactory::class,
+        ],
+    ],
+    // The 'access_filter' key is used by the User module to restrict or permit
+    // access to certain controller actions for unauthorized visitors.
+//    'access_filter' => [
+//        'controllers' => [
+//            Controller\UserController::class => [
+//                // Give access to "resetPassword", "message" and "setPassword" actions
+//                // to anyone.
+//                ['actions' => ['resetPassword', 'message', 'setPassword'], 'allow' => '*'],
+//                // Give access to "index", "add", "edit", "view", "changePassword" actions to authorized users only.
+//                ['actions' => ['index', 'add', 'edit', 'view', 'changePassword'], 'allow' => '@']
+//            ],
+//        ]
+//    ],
+    'service_manager' => [
+        'factories' => [
+            \Zend\Authentication\AuthenticationService::class => Service\Factory\AuthenticationServiceFactory::class,
+            Service\AuthAdapter::class => Service\Factory\AuthAdapterFactory::class,
+            Service\AuthManager::class => Service\Factory\AuthManagerFactory::class,
+            Service\UserManager::class => Service\Factory\UserManagerFactory::class,
         ],
     ],
     'view_manager' => [
