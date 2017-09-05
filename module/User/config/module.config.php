@@ -9,6 +9,7 @@ namespace User;
 
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;
 use User\Controller\Factory\AuthControllerFactory;
+use Zend\Router\Http\Literal;
 use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
@@ -28,16 +29,26 @@ return [
                     ],
                 ],
             ],
-            'auth' => [
-                'type' => Segment::class,
+            'login' => [
+                'type' => Literal::class,
                 'options' => [
-                    'route'    => '/auth[/:action]',
+                    'route'    => '/login',
                     'constraints' => [
                         'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
                     ],
                     'defaults' => [
                         'controller' => Controller\AuthController::class,
                         'action'     => 'login',
+                    ],
+                ],
+            ],
+            'logout' => [
+                'type' => Literal::class,
+                'options' => [
+                    'route'    => '/logout',
+                    'defaults' => [
+                        'controller' => Controller\AuthController::class,
+                        'action'     => 'logout',
                     ],
                 ],
             ],
@@ -49,19 +60,14 @@ return [
             Controller\AuthController::class => AuthControllerFactory::class,
         ],
     ],
-    // The 'access_filter' key is used by the User module to restrict or permit
-    // access to certain controller actions for unauthorized visitors.
-//    'access_filter' => [
-//        'controllers' => [
-//            Controller\UserController::class => [
-//                // Give access to "resetPassword", "message" and "setPassword" actions
-//                // to anyone.
-//                ['actions' => ['resetPassword', 'message', 'setPassword'], 'allow' => '*'],
-//                // Give access to "index", "add", "edit", "view", "changePassword" actions to authorized users only.
-//                ['actions' => ['index', 'add', 'edit', 'view', 'changePassword'], 'allow' => '@']
-//            ],
-//        ]
-//    ],
+    'controller_plugins' => [
+        'factories' => [
+            Controller\Plugin\CurrentUserPlugin::class => Controller\Plugin\Factory\CurrentUserPluginFactory::class,
+        ],
+        'aliases' => [
+            'currentUser' => Controller\Plugin\CurrentUserPlugin::class,
+        ],
+    ],
     'service_manager' => [
         'factories' => [
             \Zend\Authentication\AuthenticationService::class => Service\Factory\AuthenticationServiceFactory::class,
@@ -73,6 +79,17 @@ return [
     'view_manager' => [
         'template_path_stack' => [
             __DIR__ . '/../view',
+        ],
+    ],
+    // We register module-provided view helpers under this key.
+    'view_helpers' => [
+        'factories' => [
+            View\Helper\Access::class => View\Helper\Factory\AccessFactory::class,
+            View\Helper\CurrentUser::class => View\Helper\Factory\CurrentUserFactory::class,
+        ],
+        'aliases' => [
+            'access' => View\Helper\Access::class,
+            'currentUser' => View\Helper\CurrentUser::class,
         ],
     ],
     'doctrine' => [

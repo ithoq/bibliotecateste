@@ -129,7 +129,11 @@ class AuthController extends AbstractActionController
      */
     public function logoutAction()
     {
-        $this->authManager->logout();
+        try{
+            $this->authManager->logout();
+        } catch (\Exception $e){
+            return $this->redirect()->toRoute('login');
+        }
 
         return $this->redirect()->toRoute('login');
     }
