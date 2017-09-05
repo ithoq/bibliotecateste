@@ -2,6 +2,8 @@
 
 namespace Book\Controller;
 
+use Book\Entity\Book;
+use Book\Form\BookForm;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 use User\Entity\User;
@@ -52,11 +54,10 @@ class BookController extends AbstractActionController
     public function addAction()
     {
         // Create user form
-        $form = new UserForm('create', $this->entityManager);
+        $form = new BookForm($this->entityManager);
 
         // Get the list of all available roles (sorted by name).
-        $allRoles = $this->entityManager->getRepository(Role::class)
-            ->findBy([], ['name' => 'ASC']);
+        $allRoles = $this->entityManager->getRepository(Role::class)->findBy([], ['name' => 'ASC']);
         $roleList = [];
         foreach ($allRoles as $role) {
             $roleList[$role->getId()] = $role->getName();

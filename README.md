@@ -25,7 +25,7 @@ $ docker-compose run zf composer install
 Execute:
 
 ```bash
-$ docker-compose run zf compose dump-autoload
+$ docker-compose run zf composer dump-autoload
 ```
 
 Acesse http://localhost:8080 para ver o site.

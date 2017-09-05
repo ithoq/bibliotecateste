@@ -19,8 +19,9 @@ return [
     'Zend\Session',
     'Zend\Router',
     'Zend\Validator',
-    'Application',
-    'User',
     'DoctrineModule',
     'DoctrineORMModule',
+    'Application',
+    'User',
+    'Book',
 ];

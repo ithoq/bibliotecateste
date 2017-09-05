@@ -7,13 +7,11 @@
 
 namespace Book;
 
+use Book\Controller\Factory\BookControllerFactory;
 use Book\Form\Factory\BookFormFactory;
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;
-use User\Controller\Factory\AuthControllerFactory;
-use User\Form\BookForm;
-use Zend\Router\Http\Literal;
+use Book\Form\BookForm;
 use Zend\Router\Http\Segment;
-use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
     'router' => [
@@ -21,7 +19,7 @@ return [
             'book' => [
                 'type' => Segment::class,
                 'options' => [
-                    'route' => '/user[/:action[/:id]]',
+                    'route' => '/book[/:action[/:id]]',
                     'constraints' => [
                         'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
                         'id' => '[a-zA-Z0-9_-]*',
@@ -41,7 +39,7 @@ return [
     ],
     'controllers' => [
         'factories' => [
-            Controller\BookController::class => InvokableFactory::class,
+            Controller\BookController::class => BookControllerFactory::class,
         ],
     ],
     'view_manager' => [
@@ -49,6 +47,12 @@ return [
             __DIR__ . '/../view',
         ],
     ],
+    'service_manager' => [
+        'factories' => [
+            Service\BookManager::class => Service\Factory\BookManagerFactory::class,
+        ],
+    ],
+
     'doctrine' => [
         'driver' => [
             __NAMESPACE__ . '_driver' => [
