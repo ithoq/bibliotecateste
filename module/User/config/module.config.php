@@ -22,7 +22,7 @@ return [
                         'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
                     ],
                     'defaults' => [
-                        'controller' => Controller\UserController::class,
+                        'controller' => Controller\IndexController::class,
                         'action'     => 'index',
                     ],
                 ],
@@ -31,7 +31,7 @@ return [
     ],
     'controllers' => [
         'factories' => [
-            Controller\UserController::class => InvokableFactory::class,
+            Controller\IndexController::class => InvokableFactory::class,
         ],
     ],
     'view_manager' => [
