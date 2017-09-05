@@ -152,4 +152,4 @@ SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 
-INSERT INTO `biblioteca`.`user` (`name`, `email`, `password`) VALUES ('Rafael Mitsuo Moriya', 'rm.moriya@gmail.com', MD5('123123'));
+INSERT INTO `biblioteca`.`user` (`name`, `email`, `password`) VALUES ('Rafael Mitsuo Moriya', 'rm.moriya@gmail.com', '$2y$10$Wa3K57IV81PMJ/3Wirue5.Y3J1y4h2vyulu9z.XNQEQvJqwyWzTGW');
