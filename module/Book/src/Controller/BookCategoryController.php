@@ -43,10 +43,10 @@ class BookCategoryController extends AbstractActionController
      */
     public function indexAction()
     {
-        $books = $this->entityManager->getRepository(BookCategory::class)->findBy([], ['id' => 'ASC']);
+        $bookCategories = $this->entityManager->getRepository(BookCategory::class)->findBy([], ['id' => 'ASC']);
 
         return new ViewModel([
-            'books' => $books
+            'bookCategories' => $bookCategories
         ]);
     }
 
@@ -76,7 +76,7 @@ class BookCategoryController extends AbstractActionController
                 $this->bookCategoryManager->addBook($data);
 
                 // Redirect to "view" page
-                return $this->redirect()->toRoute('book');
+                return $this->redirect()->toRoute('book_category');
             }
         }
 

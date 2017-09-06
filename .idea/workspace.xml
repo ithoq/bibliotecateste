@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d36aaf9-43cc-4d9f-be5b-c454e9f7d330" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Book/src/Controller/Factory/BookCategoryControllerFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Book/src/Service/BookCategoryManager.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/module/User/view/layout/layout.phtml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" afterPath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/config/module.config.php" afterPath="$PROJECT_DIR$/module/Book/config/module.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Service/BookManager.php" afterPath="$PROJECT_DIR$/module/Book/src/Service/BookManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/view/book/book/index.phtml" afterPath="$PROJECT_DIR$/module/Book/view/book/book/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php" afterPath="$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +17,18 @@
       <file leaf-file-name="BookCategoryController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+            <state relative-caret-position="248">
+              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Book/view/book/book-category/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -42,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookCategoryManager.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookCategoryManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookCategoryManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+            <state relative-caret-position="398">
+              <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -103,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/module/User/src/Service/Factory/AuthenticationServiceFactory.php" />
         <option value="$PROJECT_DIR$/module/User/src/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/module/User/src/Form/LoginForm.php" />
         <option value="$PROJECT_DIR$/module/User/view/user/auth/login.phtml" />
@@ -151,9 +152,10 @@
         <option value="$PROJECT_DIR$/module/Book/src/Form/Factory/BookCategoryFormFactory.php" />
         <option value="$PROJECT_DIR$/module/Book/view/book/book-category/add.phtml" />
         <option value="$PROJECT_DIR$/module/Book/src/Form/BookCategoryForm.php" />
-        <option value="$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php" />
         <option value="$PROJECT_DIR$/module/Book/src/Controller/Factory/BookCategoryControllerFactory.php" />
         <option value="$PROJECT_DIR$/module/Book/src/Service/BookCategoryManager.php" />
+        <option value="$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php" />
+        <option value="$PROJECT_DIR$/module/Book/view/book/book-category/index.phtml" />
       </list>
     </option>
   </component>
@@ -336,6 +338,15 @@
               <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="book" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="book" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="book-category" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -738,11 +749,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504641445660</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Criando book category crud">
+      <created>1504666950537</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1504666950537</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32576000" />
+    <option name="totallyTimeSpent" value="32947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -797,23 +815,14 @@
     <MESSAGE value="Arrumando sql para bcrypt no password" />
     <MESSAGE value="Criando filtro de acesso" />
     <MESSAGE value="Criando book module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando book module" />
+    <MESSAGE value="Criando book category crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando book category crud" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/User/src/View/Helper/CurrentUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#36#72#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/test/Controller/IndexControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -1112,16 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#297#355#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1236,18 +1235,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php">
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookCategoryManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        <state relative-caret-position="398">
+          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookCategoryManager.php">
+    <entry file="file://$PROJECT_DIR$/module/Book/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="390">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#297#355#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book-category/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
         </state>
       </provider>
