@@ -94,31 +94,6 @@ class BookController extends AbstractActionController
     }
 
     /**
-     * The "view" action displays a page allowing to view user's details.
-     */
-    public function viewAction()
-    {
-        $id = (int)$this->params()->fromRoute('id', -1);
-        if ($id < 1) {
-            $this->getResponse()->setStatusCode(404);
-            return;
-        }
-
-        // Find a user with such ID.
-        $user = $this->entityManager->getRepository(User::class)
-            ->find($id);
-
-        if ($user == null) {
-            $this->getResponse()->setStatusCode(404);
-            return;
-        }
-
-        return new ViewModel([
-            'user' => $user
-        ]);
-    }
-
-    /**
      * The "edit" action displays a page allowing to edit user.
      */
     public function editAction()
@@ -129,26 +104,25 @@ class BookController extends AbstractActionController
             return;
         }
 
-        $user = $this->entityManager->getRepository(User::class)
-            ->find($id);
+        $book = $this->entityManager->getRepository(Book::class)->find($id);
 
-        if ($user == null) {
+        if ($book == null) {
             $this->getResponse()->setStatusCode(404);
             return;
         }
 
         // Create user form
-        $form = new UserForm('update', $this->entityManager, $user);
+        $form = new BookForm($this->entityManager, $book);
+
 
         // Get the list of all available roles (sorted by name).
-        $allCategories = $this->entityManager->getRepository(Role::class)
-            ->findBy([], ['name' => 'ASC']);
+        $allCategories = $this->entityManager->getRepository(BookCategory::class)->findBy(['deleted_at' => null], ['name' => 'ASC']);
         $categoryList = [];
         foreach ($allCategories as $category) {
             $categoryList[$category->getId()] = $category->getName();
         }
 
-        $form->get('roles')->setValueOptions($categoryList);
+        $form->get('id_book_category')->setValueOptions($categoryList);
 
         // Check if user has submitted the form
         if ($this->getRequest()->isPost()) {
@@ -165,18 +139,15 @@ class BookController extends AbstractActionController
                 $data = $form->getData();
 
                 // Update the user.
-                $this->bookManager->updateUser($user, $data);
+                $this->bookManager->updateBook($book, $data);
 
                 // Redirect to "view" page
-                return $this->redirect()->toRoute('users',
-                    ['action' => 'view', 'id' => $user->getId()]);
+                return $this->redirect()->toRoute('book');
             }
         } else {
             $form->setData(array(
-                'full_name' => $user->getFullName(),
-                'email' => $user->getEmail(),
-                'status' => $user->getStatus(),
-                'roles' => $userRoleIds
+                'name' => $book->getName(),
+                'id_book_category' => $book->getBookCategory()->getId()
             ));
         }
 

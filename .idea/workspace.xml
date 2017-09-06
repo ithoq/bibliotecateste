@@ -4,7 +4,6 @@
     <list default="true" id="6d36aaf9-43cc-4d9f-be5b-c454e9f7d330" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Controller/BookController.php" afterPath="$PROJECT_DIR$/module/Book/src/Controller/BookController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Form/BookForm.php" afterPath="$PROJECT_DIR$/module/Book/src/Form/BookForm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Service/BookManager.php" afterPath="$PROJECT_DIR$/module/Book/src/Service/BookManager.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/view/book/book/index.phtml" afterPath="$PROJECT_DIR$/module/Book/view/book/book/index.phtml" />
     </list>
@@ -21,28 +20,40 @@
       <file leaf-file-name="BookController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/BookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="106" column="64" lean-forward="false" selection-start-line="106" selection-start-column="64" selection-end-line="106" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Book/view/book/book/edit.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="79" lean-forward="true" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Book/view/book/book/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="525">
+              <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+              <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+              <caret line="35" column="61" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookManager.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookManager.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+            <state relative-caret-position="780">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="e#32#53#0#PHP" expanded="true" />
               </folding>
@@ -159,9 +170,9 @@
         <option value="$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php" />
         <option value="$PROJECT_DIR$/module/Book/view/book/book/add.phtml" />
         <option value="$PROJECT_DIR$/module/Book/src/Form/BookForm.php" />
-        <option value="$PROJECT_DIR$/module/Book/src/Service/BookManager.php" />
-        <option value="$PROJECT_DIR$/module/Book/src/Controller/BookController.php" />
         <option value="$PROJECT_DIR$/module/Book/view/book/book/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Book/src/Controller/BookController.php" />
+        <option value="$PROJECT_DIR$/module/Book/src/Service/BookManager.php" />
       </list>
     </option>
   </component>
@@ -500,7 +511,7 @@
       <workItem from="1504570928142" duration="4954000" />
       <workItem from="1504613557648" duration="3473000" />
       <workItem from="1504625834720" duration="9934000" />
-      <workItem from="1504696969426" duration="1086000" />
+      <workItem from="1504696969426" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando DER">
       <created>1504533516473</created>
@@ -621,11 +632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504697575281</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Crud de livros">
+      <created>1504698127967</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1504698127967</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34591000" />
+    <option name="totallyTimeSpent" value="34778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -674,14 +692,14 @@
     <MESSAGE value="Criando book module" />
     <MESSAGE value="Criando book category crud" />
     <MESSAGE value="Deletando uma categoria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deletando uma categoria" />
+    <MESSAGE value="Crud de livros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crud de livros" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/User/src/Service/Factory/RbacManagerFactory.php" />
     <entry file="file://$PROJECT_DIR$/module/User/src/Service/RoleManager.php" />
     <entry file="file://$PROJECT_DIR$/module/User/src/Controller/Plugin/Factory/AccessPluginFactory.php" />
     <entry file="file://$PROJECT_DIR$/module/User/src/View/Helper/Access.php">
@@ -1032,29 +1050,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookManager.php">
+    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-          <folding>
-            <element signature="e#32#53#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+          <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <caret line="35" column="61" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/BookController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="106" column="64" lean-forward="false" selection-start-line="106" selection-start-column="64" selection-end-line="106" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book/index.phtml">
+    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="405">
+          <caret line="27" column="79" lean-forward="true" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#32#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

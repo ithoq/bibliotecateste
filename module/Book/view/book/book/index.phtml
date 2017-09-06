@@ -23,17 +23,17 @@
                     <?php foreach ($books as $book): ?>
                         <tr>
                             <td>
-                                <a href="<?= $this->url('book_category', ['action' => 'edit', 'id' => $book->getId()]) ?>">
+                                <a href="<?= $this->url('book', ['action' => 'edit', 'id' => $book->getId()]) ?>">
                                     <?= $book->getName() ?>
                                 </a>
                             </td>
                             <td>
-                                <a href="<?= $this->url('book_category', ['action' => 'edit', 'id' => $book->getId()]) ?>">
+                                <a href="<?= $this->url('book', ['action' => 'edit', 'id' => $book->getId()]) ?>">
                                     <?= $book->getBookCategory()->getName() ?>
                                 </a>
                             </td>
                             <td>
-                                <a href="<?= $this->url('book_category', ['action' => 'delete', 'id' => $book->getId()]); ?>" class="label label-important">DELETAR</a>
+                                <a href="<?= $this->url('book', ['action' => 'delete', 'id' => $book->getId()]); ?>" class="label label-important">DELETAR</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
