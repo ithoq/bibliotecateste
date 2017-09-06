@@ -57,7 +57,7 @@ class BookCategoryManager
             throw new \Exception("Another user with name address " . $data['name'] . " already exists");
         }
 
-        $bookCategory->setName($data['email']);
+        $bookCategory->setName($data['name']);
 
         // Apply changes to database.
         $this->entityManager->flush();

@@ -22,7 +22,11 @@
                     <tbody>
                     <?php foreach($bookCategories as $category):?>
                     <tr>
-                        <td><?= $category->getName() ?></td>
+                        <td>
+                            <a href="<?= $this->url('book_category', ['action' => 'edit', 'id' => $category->getId()]) ?>">
+                                <?= $category->getName() ?>
+                            </a>
+                        </td>
                         <td>
                             <span class="label label-important">DELETAR</span>
                         </td>

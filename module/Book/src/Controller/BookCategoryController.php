@@ -121,27 +121,15 @@ class BookCategoryController extends AbstractActionController
             return;
         }
 
-        $user = $this->entityManager->getRepository(User::class)
-            ->find($id);
+        $bookCategory = $this->entityManager->getRepository(BookCategory::class)->find($id);
 
-        if ($user == null) {
+        if ($bookCategory == null) {
             $this->getResponse()->setStatusCode(404);
             return;
         }
 
         // Create user form
-        $form = new UserForm('update', $this->entityManager, $user);
-
-        // Get the list of all available roles (sorted by name).
-        $allRoles = $this->entityManager->getRepository(Role::class)
-            ->findBy([], ['name' => 'ASC']);
-        $roleList = [];
-        foreach ($allRoles as $role) {
-            $roleList[$role->getId()] = $role->getName();
-        }
-
-        $form->get('roles')->setValueOptions($roleList);
-
+        $form = new BookCategoryForm($this->entityManager, $bookCategory);
         // Check if user has submitted the form
         if ($this->getRequest()->isPost()) {
 
@@ -157,29 +145,19 @@ class BookCategoryController extends AbstractActionController
                 $data = $form->getData();
 
                 // Update the user.
-                $this->bookCategoryManager->updateUser($user, $data);
+                $this->bookCategoryManager->updateBook($bookCategory, $data);
 
                 // Redirect to "view" page
-                return $this->redirect()->toRoute('users',
-                    ['action' => 'view', 'id' => $user->getId()]);
+                return $this->redirect()->toRoute('book_category');
             }
         } else {
-
-            $userRoleIds = [];
-            foreach ($user->getRoles() as $role) {
-                $userRoleIds[] = $role->getId();
-            }
-
             $form->setData(array(
-                'full_name' => $user->getFullName(),
-                'email' => $user->getEmail(),
-                'status' => $user->getStatus(),
-                'roles' => $userRoleIds
+                'name' => $bookCategory->getName()
             ));
         }
 
         return new ViewModel(array(
-            'user' => $user,
+            'bookCategory' => $bookCategory,
             'form' => $form
         ));
     }

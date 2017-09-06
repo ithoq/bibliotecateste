@@ -20,10 +20,17 @@ class BookCategoryForm extends Form
      */
     private $entityManager = null;
 
+
+    /**
+     * Current user.
+     * @var Book\Entity\BookCategory
+     */
+    private $bookCategory = null;
+
     /**
      * Constructor.
      */
-    public function __construct($entityManager = null)
+    public function __construct($entityManager = null, $bookCategory = null)
     {
         // Define form name
         parent::__construct('book-category-form');
@@ -35,6 +42,7 @@ class BookCategoryForm extends Form
 
         // Save parameters for internal use.
         $this->entityManager = $entityManager;
+        $this->bookCategory = $bookCategory;
 
         $this->addElements();
         $this->addInputFilter();
