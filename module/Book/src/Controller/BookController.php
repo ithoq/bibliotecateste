@@ -42,7 +42,7 @@ class BookController extends AbstractActionController
      */
     public function indexAction()
     {
-        $books = $this->entityManager->getRepository(Book::class)->findBy([], ['id' => 'ASC']);
+        $books = $this->entityManager->getRepository(Book::class)->findBy(['deleted_at' => null], ['id' => 'ASC']);
 
         return new ViewModel([
             'books' => $books
@@ -152,9 +152,27 @@ class BookController extends AbstractActionController
         }
 
         return new ViewModel(array(
-            'user' => $user,
+            'user' => $book,
             'form' => $form
         ));
+    }
+
+    /**
+     * Delete
+     * @return void|\Zend\Http\Response|ViewModel
+     */
+    public function deleteAction()
+    {
+        $id = (int)$this->params()->fromRoute('id', -1);
+        if ($id < 1) {
+            $this->getResponse()->setStatusCode(404);
+            return;
+        }
+
+        $bookCategory = $this->entityManager->getRepository(Book::class)->find($id);
+        $this->bookManager->deleteBook($bookCategory);
+
+        $this->redirect()->toRoute('book');
     }
 
 }

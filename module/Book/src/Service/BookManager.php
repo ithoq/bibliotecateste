@@ -72,11 +72,27 @@ class BookManager
     }
 
     /**
+     * Delete
+     * @param $book
+     * @return bool
+     */
+    public function deleteBook($book)
+    {
+        // Do not allow to change user email if another user with such email already exits.
+        $book->setDeletedAt(date('Y-m-d H:i:s'));
+
+        // Apply changes to database.
+        $this->entityManager->flush();
+        return true;
+    }
+
+
+    /**
      * Checks whether an active user with given email address already exists in the database.
      */
     public function checkBookExists($name)
     {
-        $book = $this->entityManager->getRepository(Book::class)->findOneBy(['name' => $name]);
+        $book = $this->entityManager->getRepository(Book::class)->findOneBy(['name' => $name, 'deleted_at' => null]);
 
         return $book !== null;
     }

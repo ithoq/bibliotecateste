@@ -84,7 +84,7 @@ class BookCategoryManager
      */
     public function checkBookCategoryExists($name)
     {
-        $book = $this->entityManager->getRepository(BookCategory::class)->findOneBy(['name' => $name]);
+        $book = $this->entityManager->getRepository(BookCategory::class)->findOneBy(['name' => $name, 'deleted_at' => null]);
         return $book !== null;
     }
 }
