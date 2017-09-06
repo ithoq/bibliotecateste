@@ -48,4 +48,20 @@ return [
     'session_storage' => [
         'type' => SessionArrayStorage::class
     ],
+    'book_price' => [
+        'normal' => 0.2,
+        'ticket' => 0.4
+    ]
+    /**
+     * Na factory do service ou do controller
+     * public function __invoke(Container $container) : MyController
+    {
+    $config = $container->get('config');
+    if (!isset($config['book_price']) || !is_string($config['book_price'])) {
+    throw new Exception(); // Use a specific exception here.
+    }
+    $variable = $config['book_price']; // 'value'
+    return new MyController($variable);
+    }
+     */
 ];
