@@ -7,6 +7,7 @@
 
 namespace Book;
 
+use Book\Controller\Factory\BookCategoryControllerFactory;
 use Book\Controller\Factory\BookControllerFactory;
 use Book\Form\Factory\BookFormFactory;
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;
@@ -30,6 +31,20 @@ return [
                     ],
                 ],
             ],
+            'book_category' => [
+                'type' => Segment::class,
+                'options' => [
+                    'route' => '/book-category[/:action[/:id]]',
+                    'constraints' => [
+                        'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
+                        'id' => '[a-zA-Z0-9_-]*',
+                    ],
+                    'defaults' => [
+                        'controller' => Controller\BookCategoryController::class,
+                        'action' => 'index',
+                    ],
+                ],
+            ],
         ],
     ],
     'form_elements' => [
@@ -40,6 +55,7 @@ return [
     'controllers' => [
         'factories' => [
             Controller\BookController::class => BookControllerFactory::class,
+            Controller\BookCategoryController::class => BookCategoryControllerFactory::class,
         ],
     ],
     'view_manager' => [
@@ -50,6 +66,7 @@ return [
     'service_manager' => [
         'factories' => [
             Service\BookManager::class => Service\Factory\BookManagerFactory::class,
+            Service\BookCategoryManager::class => Service\Factory\BookCategoryManagerFactory::class,
         ],
     ],
 
