@@ -65,6 +65,21 @@ class BookCategoryManager
     }
 
     /**
+     * Delete categoria
+     * @param $bookCategory
+     * @return bool
+     */
+    public function deleteBookCategory($bookCategory)
+    {
+        // Do not allow to change user email if another user with such email already exits.
+        $bookCategory->setDeletedAt(date('Y-m-d H:i:s'));
+
+        // Apply changes to database.
+        $this->entityManager->flush();
+        return true;
+    }
+
+    /**
      * Checks whether an active user with given email address already exists in the database.
      */
     public function checkBookCategoryExists($name)

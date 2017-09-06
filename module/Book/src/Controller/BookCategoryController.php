@@ -43,7 +43,7 @@ class BookCategoryController extends AbstractActionController
      */
     public function indexAction()
     {
-        $bookCategories = $this->entityManager->getRepository(BookCategory::class)->findBy([], ['id' => 'ASC']);
+        $bookCategories = $this->entityManager->getRepository(BookCategory::class)->findBy(['deleted_at' => null], ['id' => 'ASC']);
 
         return new ViewModel([
             'bookCategories' => $bookCategories
@@ -82,31 +82,6 @@ class BookCategoryController extends AbstractActionController
 
         return new ViewModel([
             'form' => $form
-        ]);
-    }
-
-    /**
-     * The "view" action displays a page allowing to view user's details.
-     */
-    public function viewAction()
-    {
-        $id = (int)$this->params()->fromRoute('id', -1);
-        if ($id < 1) {
-            $this->getResponse()->setStatusCode(404);
-            return;
-        }
-
-        // Find a user with such ID.
-        $user = $this->entityManager->getRepository(User::class)
-            ->find($id);
-
-        if ($user == null) {
-            $this->getResponse()->setStatusCode(404);
-            return;
-        }
-
-        return new ViewModel([
-            'user' => $user
         ]);
     }
 
@@ -160,6 +135,24 @@ class BookCategoryController extends AbstractActionController
             'bookCategory' => $bookCategory,
             'form' => $form
         ));
+    }
+
+    /**
+     * Delete
+     * @return void|\Zend\Http\Response|ViewModel
+     */
+    public function deleteAction()
+    {
+        $id = (int)$this->params()->fromRoute('id', -1);
+        if ($id < 1) {
+            $this->getResponse()->setStatusCode(404);
+            return;
+        }
+
+        $bookCategory = $this->entityManager->getRepository(BookCategory::class)->find($id);
+        $this->bookCategoryManager->deleteBookCategory($bookCategory);
+
+        $this->redirect()->toRoute('book_category');
     }
 
 }
