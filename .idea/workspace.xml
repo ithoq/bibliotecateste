@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6d36aaf9-43cc-4d9f-be5b-c454e9f7d330" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php" afterPath="$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Form/BookCategoryForm.php" afterPath="$PROJECT_DIR$/module/Book/src/Form/BookCategoryForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Service/BookCategoryManager.php" afterPath="$PROJECT_DIR$/module/Book/src/Service/BookCategoryManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/view/book/book-category/index.phtml" afterPath="$PROJECT_DIR$/module/Book/view/book/book-category/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Controller/BookController.php" afterPath="$PROJECT_DIR$/module/Book/src/Controller/BookController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Form/BookForm.php" afterPath="$PROJECT_DIR$/module/Book/src/Form/BookForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/src/Service/BookManager.php" afterPath="$PROJECT_DIR$/module/Book/src/Service/BookManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Book/view/book/book/index.phtml" afterPath="$PROJECT_DIR$/module/Book/view/book/book/index.phtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,97 +15,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BookCategoryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php">
+      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/BookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="147" column="54" lean-forward="false" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="54" />
+            <state relative-caret-position="409">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Book/view/book/book/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
               <folding>
-                <element signature="e#247#374#0#PHP" expanded="false" />
-                <element signature="e#443#516#0#PHP" expanded="false" />
-                <element signature="e#550#627#0#PHP" expanded="false" />
-                <element signature="e#667#698#0#PHP" expanded="false" />
-                <element signature="e#703#885#0#PHP" expanded="false" />
-                <element signature="e#891#1001#0#PHP" expanded="false" />
-                <element signature="e#1006#1252#0#PHP" expanded="false" />
-                <element signature="e#1185#1244#1#PHP" expanded="false" />
-                <element signature="e#1258#1332#0#PHP" expanded="false" />
-                <element signature="e#1337#2149#0#PHP" expanded="false" />
-                <element signature="e#1516#2071#0#PHP" expanded="false" />
-                <element signature="e#1728#2061#0#PHP" expanded="false" />
-                <element signature="e#2102#2141#1#PHP" expanded="false" />
-                <element signature="e#2155#2240#0#PHP" expanded="false" />
-                <element signature="e#2245#2763#0#PHP" expanded="false" />
-                <element signature="e#2345#2443#0#PHP" expanded="false" />
-                <element signature="e#2498#2570#0#PHP" expanded="false" />
-                <element signature="e#2581#2685#0#PHP" expanded="false" />
-                <element signature="e#2716#2755#1#PHP" expanded="false" />
-                <element signature="e#2769#2844#0#PHP" expanded="false" />
+                <element signature="e#32#53#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookCategoryManager.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookCategoryManager.php">
+      <file leaf-file-name="BookForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Book/src/Form/BookForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state relative-caret-position="444">
+              <caret line="66" column="39" lean-forward="false" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Book/view/book/book-category/edit.phtml">
+      <file leaf-file-name="Book.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Book/src/Entity/Book.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookCategoryForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Book/src/Form/BookCategoryForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Book/view/book/book-category/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-              <folding>
-                <marker date="1504691733000" expanded="true" signature="1263:1304" ph="..." />
-                <marker date="1504691733000" expanded="true" signature="1263:1372" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookCategoryControllerFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/Factory/BookCategoryControllerFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Book/view/book/book-category/add.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="-666">
+              <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -152,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/module/User/src/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/module/User/src/Form/LoginForm.php" />
         <option value="$PROJECT_DIR$/module/User/view/user/auth/login.phtml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
@@ -180,29 +138,30 @@
         <option value="$PROJECT_DIR$/module/User/src/Entity/UserLog.php" />
         <option value="$PROJECT_DIR$/module/Book/src/Entity/BookCategory.php" />
         <option value="$PROJECT_DIR$/module/Book/src/Entity/Book.php" />
-        <option value="$PROJECT_DIR$/module/Book/src/Form/BookForm.php" />
         <option value="$PROJECT_DIR$/module/Book/src/Form/Factory/BookFormFactory.php" />
         <option value="$PROJECT_DIR$/module/Book/src/Module.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/module/Book/src/Controller/Factory/BookControllerFactory.php" />
         <option value="$PROJECT_DIR$/module/Book/src/Service/Factory/BookManagerFactory.php" />
-        <option value="$PROJECT_DIR$/module/Book/src/Controller/BookController.php" />
         <option value="$PROJECT_DIR$/module/Application/config/module.config.php" />
         <option value="$PROJECT_DIR$/config/modules.config.php" />
         <option value="$PROJECT_DIR$/vendor/zendframework/zend-view/src/Helper/Identity.php" />
-        <option value="$PROJECT_DIR$/module/Book/view/book/book/index.phtml" />
-        <option value="$PROJECT_DIR$/module/Book/src/Service/BookManager.php" />
         <option value="$PROJECT_DIR$/module/Book/src/Service/Factory/BookCategoryManagerFactory.php" />
         <option value="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
         <option value="$PROJECT_DIR$/module/Book/config/module.config.php" />
         <option value="$PROJECT_DIR$/module/Book/src/Form/Factory/BookCategoryFormFactory.php" />
         <option value="$PROJECT_DIR$/module/Book/view/book/book-category/add.phtml" />
         <option value="$PROJECT_DIR$/module/Book/src/Controller/Factory/BookCategoryControllerFactory.php" />
-        <option value="$PROJECT_DIR$/module/Book/view/book/book-category/index.phtml" />
         <option value="$PROJECT_DIR$/module/Book/src/Form/BookCategoryForm.php" />
-        <option value="$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php" />
+        <option value="$PROJECT_DIR$/module/Book/view/book/book-category/index.phtml" />
         <option value="$PROJECT_DIR$/module/Book/src/Service/BookCategoryManager.php" />
+        <option value="$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php" />
+        <option value="$PROJECT_DIR$/module/Book/view/book/book/add.phtml" />
+        <option value="$PROJECT_DIR$/module/Book/src/Form/BookForm.php" />
+        <option value="$PROJECT_DIR$/module/Book/src/Service/BookManager.php" />
+        <option value="$PROJECT_DIR$/module/Book/src/Controller/BookController.php" />
+        <option value="$PROJECT_DIR$/module/Book/view/book/book/index.phtml" />
       </list>
     </option>
   </component>
@@ -217,8 +176,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -259,150 +218,156 @@
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DOCS" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Factory" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Factory" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="book" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="book-category" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bibliotecateste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotecateste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Book" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Book" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Book" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Book" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Book" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -414,6 +379,13 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module/Book/view/book/book" />
+      <recent name="$PROJECT_DIR$/module/Book/view/book/book-category" />
+      <recent name="$PROJECT_DIR$/module/Book/src/Form/Factory" />
+      <recent name="$PROJECT_DIR$/module/Book/src/Form" />
+      <recent name="$PROJECT_DIR$/module/Book/src/Controller/Factory" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/module/User/view/user/auth" />
       <recent name="$PROJECT_DIR$/module/Application/src" />
@@ -421,182 +393,6 @@
       <recent name="$PROJECT_DIR$/module/User" />
       <recent name="$PROJECT_DIR$/module/User/Entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/module/Book/view/book/book-category" />
-      <recent name="$PROJECT_DIR$/module/Book/src/Form/Factory" />
-      <recent name="$PROJECT_DIR$/module/Book/src/Form" />
-      <recent name="$PROJECT_DIR$/module/Book/src/Controller/Factory" />
-      <recent name="$PROJECT_DIR$/module/Book/src/Controller" />
-    </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DOCS/mysql-structure.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Dockerfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.lock</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/autoload/global.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/modules.config.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/config/module.config.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/src/Module.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/config/module.config.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Module.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/src/Entity/Book.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/src/Entity/BookCategory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/src/Entity/Rental.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/src/Entity/Renter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/src/Entity/User.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/src/Entity/UserLog.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/src/Form/LoginForm.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/config/module.config.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/src/Controller/BookController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/src/Controller/Factory/BookControllerFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/src/Entity/Book.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/src/Entity/BookCategory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/src/Form/BookForm.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/src/Form/Factory/BookFormFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/src/Module.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/src/Service/BookManager.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/src/Service/Factory/BookManagerFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Book/view/book/book/index.phtml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Controller/AuthController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Controller/Factory/AuthControllerFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Controller/IndexController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Controller/Plugin/CurrentUserPlugin.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Controller/Plugin/Factory/CurrentUserPluginFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Entity/User.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Entity/UserLog.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Form/LoginForm.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Service/AuthAdapter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Service/AuthManager.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Service/Factory/AuthAdapterFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Service/Factory/AuthManagerFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Service/Factory/AuthenticationServiceFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Service/Factory/UserManagerFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Service/UserManager.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Validator/UserExistsValidator.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/View/Helper/Access.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/View/Helper/CurrentUser.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/View/Helper/Factory/AccessFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/View/Helper/Factory/CurrentUserFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/view/user/auth/login.phtml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/view/user/index/index.phtml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/Entity/Book.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/Entity/BookCategory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/Entity/Rental.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/Entity/Renter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/Entity/User.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/Application/Entity/UserLog.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/src/Controller/UserController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/module/User/view/user/user/index.phtml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -611,14 +407,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -668,6 +456,15 @@
       <PhpTestRunnerSettings />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -703,6 +500,7 @@
       <workItem from="1504570928142" duration="4954000" />
       <workItem from="1504613557648" duration="3473000" />
       <workItem from="1504625834720" duration="9934000" />
+      <workItem from="1504696969426" duration="1086000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando DER">
       <created>1504533516473</created>
@@ -816,47 +614,46 @@
       <option name="project" value="LOCAL" />
       <updated>1504667320287</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Deletando uma categoria">
+      <created>1504697575281</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1504697575281</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33505000" />
+    <option name="totallyTimeSpent" value="34591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19702381" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17226562" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17226562" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -876,14 +673,14 @@
     <MESSAGE value="Criando filtro de acesso" />
     <MESSAGE value="Criando book module" />
     <MESSAGE value="Criando book category crud" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando book category crud" />
+    <MESSAGE value="Deletando uma categoria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deletando uma categoria" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/User/src/Service/RbacManager.php" />
     <entry file="file://$PROJECT_DIR$/module/User/src/Service/Factory/RbacManagerFactory.php" />
     <entry file="file://$PROJECT_DIR$/module/User/src/Service/RoleManager.php" />
     <entry file="file://$PROJECT_DIR$/module/User/src/Controller/Plugin/Factory/AccessPluginFactory.php" />
@@ -905,9 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="699">
           <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-          <folding>
-            <element signature="e#297#332#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -915,9 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="52" column="53" lean-forward="true" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
-          <folding>
-            <element signature="e#304#339#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,9 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <element signature="e#42#88#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -935,9 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#32#53#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,29 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Entity/BookCategory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Form/BookForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="e#29#48#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,9 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-          <folding>
-            <element signature="e#297#346#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1078,24 +840,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/BookController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding>
-            <element signature="e#35#56#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#6#278#0#PHP" expanded="false" />
-            <element signature="e#304#353#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,7 +852,6 @@
         <state relative-caret-position="1305">
           <caret line="87" column="49" lean-forward="false" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
           <caret line="87" column="59" lean-forward="false" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="419" column="52" lean-forward="false" selection-start-line="419" selection-start-column="52" selection-end-line="420" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,91 +887,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Entity/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1057">
-          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Service/Factory/BookCategoryManagerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Service/Factory/BookCategoryManagerFactory.php" />
     <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="267" column="94" lean-forward="false" selection-start-line="267" selection-start-column="94" selection-end-line="267" selection-end-column="94" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#li#4;n#ul#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9787#9793#0#HTML" expanded="true" />
-            <element signature="e#9793#9799#0#HTML" expanded="true" />
-            <element signature="e#10158#10164#0#HTML" expanded="true" />
-            <element signature="e#10164#10170#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#li#2;n#ul#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1504665892000" expanded="true" signature="1977:4819" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="2011:4819" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="2077:4819" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="2146:4819" ph="..." />
-            <marker date="1504665892000" expanded="false" signature="2186:3646" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="2266:2502" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="2304:2484" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="2378:2462" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="2568:2770" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="2667:2753" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="2859:3631" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="2917:3111" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="3005:3089" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="3169:3381" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="3235:3359" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="3441:3613" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="3507:3591" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="3730:4819" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="3813:4819" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="3860:4119" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="3904:4097" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="3979:4071" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="4166:4819" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="4218:4385" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="4264:4359" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="4429:4593" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="4475:4567" ph="..." />
-            <marker date="1504665892000" expanded="true" signature="4718:4819" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="44" column="52" lean-forward="false" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1252,26 +916,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-37">
           <caret line="102" column="20" lean-forward="false" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Form/Factory/BookCategoryFormFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="79" lean-forward="true" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book-category/add.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Form/Factory/BookCategoryFormFactory.php" />
     <entry file="file://$PROJECT_DIR$/module/Book/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1282,29 +930,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book-category/index.phtml">
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/Factory/BookCategoryControllerFactory.php" />
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Entity/BookCategory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <marker date="1504691733000" expanded="true" signature="1263:1304" ph="..." />
-            <marker date="1504691733000" expanded="true" signature="1263:1372" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Form/BookCategoryForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/Factory/BookCategoryControllerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="639">
+          <caret line="101" column="32" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1317,10 +947,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Form/BookCategoryForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book-category/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="122" lean-forward="false" selection-start-line="29" selection-start-column="122" selection-end-line="29" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book-category/add.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/BookCategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="147" column="54" lean-forward="false" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="54" />
+        <state relative-caret-position="315">
+          <caret line="45" column="131" lean-forward="true" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="131" />
           <folding>
             <element signature="e#247#374#0#PHP" expanded="false" />
             <element signature="e#443#516#0#PHP" expanded="false" />
@@ -1328,28 +982,78 @@
             <element signature="e#667#698#0#PHP" expanded="false" />
             <element signature="e#703#885#0#PHP" expanded="false" />
             <element signature="e#891#1001#0#PHP" expanded="false" />
-            <element signature="e#1006#1252#0#PHP" expanded="false" />
-            <element signature="e#1185#1244#1#PHP" expanded="false" />
-            <element signature="e#1258#1332#0#PHP" expanded="false" />
-            <element signature="e#1337#2149#0#PHP" expanded="false" />
-            <element signature="e#1516#2071#0#PHP" expanded="false" />
-            <element signature="e#1728#2061#0#PHP" expanded="false" />
-            <element signature="e#2102#2141#1#PHP" expanded="false" />
-            <element signature="e#2155#2240#0#PHP" expanded="false" />
-            <element signature="e#2245#2763#0#PHP" expanded="false" />
-            <element signature="e#2345#2443#0#PHP" expanded="false" />
-            <element signature="e#2498#2570#0#PHP" expanded="false" />
-            <element signature="e#2581#2685#0#PHP" expanded="false" />
-            <element signature="e#2716#2755#1#PHP" expanded="false" />
-            <element signature="e#2769#2844#0#PHP" expanded="false" />
+            <element signature="e#1205#1264#1#PHP" expanded="false" />
+            <element signature="e#1278#1352#0#PHP" expanded="false" />
+            <element signature="e#1357#2169#0#PHP" expanded="false" />
+            <element signature="e#1536#2091#0#PHP" expanded="false" />
+            <element signature="e#1748#2081#0#PHP" expanded="false" />
+            <element signature="e#2122#2161#1#PHP" expanded="false" />
+            <element signature="e#2175#2250#0#PHP" expanded="false" />
+            <element signature="e#2355#2453#0#PHP" expanded="false" />
+            <element signature="e#2557#2669#0#PHP" expanded="false" />
+            <element signature="e#3042#3400#0#PHP" expanded="false" />
+            <element signature="e#3411#3528#0#PHP" expanded="false" />
+            <element signature="e#3430#3517#0#PHP" expanded="false" />
+            <element signature="e#3445#3516#1#PHP" expanded="false" />
+            <element signature="e#3559#3648#1#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book/add.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="67" lean-forward="false" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookCategoryManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="1065">
+          <caret line="71" column="38" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Form/BookForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="66" column="39" lean-forward="false" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Entity/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Service/BookManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="e#32#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/src/Controller/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Book/view/book/book/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>

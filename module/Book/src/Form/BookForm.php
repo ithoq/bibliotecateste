@@ -62,13 +62,9 @@ class BookForm extends Form
         // Add "status" field
         $this->add([
             'type' => 'select',
-            'name' => 'category',
+            'name' => 'id_book_category',
             'options' => [
-                'label' => 'Status',
-                'value_options' => [
-                    1 => 'Active',
-                    2 => 'Retired',
-                ]
+                'label' => 'Categoria',
             ],
         ]);
 
@@ -112,7 +108,7 @@ class BookForm extends Form
         // Add input for "roles" field
         $inputFilter->add([
             'class' => ArrayInput::class,
-            'name' => 'category',
+            'name' => 'id_book_category',
             'required' => true,
             'filters' => [
                 ['name' => 'ToInt'],

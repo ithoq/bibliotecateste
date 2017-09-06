@@ -3,6 +3,7 @@
 namespace Book\Controller;
 
 use Book\Entity\Book;
+use Book\Entity\BookCategory;
 use Book\Form\BookForm;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
@@ -57,13 +58,13 @@ class BookController extends AbstractActionController
         $form = new BookForm($this->entityManager);
 
         // Get the list of all available roles (sorted by name).
-        $allRoles = $this->entityManager->getRepository(Role::class)->findBy([], ['name' => 'ASC']);
-        $roleList = [];
-        foreach ($allRoles as $role) {
-            $roleList[$role->getId()] = $role->getName();
+        $allCategories = $this->entityManager->getRepository(BookCategory::class)->findBy(['deleted_at' => null], ['name' => 'ASC']);
+        $categoryList = [];
+        foreach ($allCategories as $category) {
+            $categoryList[$category->getId()] = $category->getName();
         }
 
-        $form->get('roles')->setValueOptions($roleList);
+        $form->get('id_book_category')->setValueOptions($categoryList);
 
         // Check if user has submitted the form
         if ($this->getRequest()->isPost()) {
@@ -80,11 +81,10 @@ class BookController extends AbstractActionController
                 $data = $form->getData();
 
                 // Add user.
-                $user = $this->bookManager->addUser($data);
+                $user = $this->bookManager->addBook($data);
 
                 // Redirect to "view" page
-                return $this->redirect()->toRoute('users',
-                    ['action' => 'view', 'id' => $user->getId()]);
+                return $this->redirect()->toRoute('book');
             }
         }
 
@@ -141,14 +141,14 @@ class BookController extends AbstractActionController
         $form = new UserForm('update', $this->entityManager, $user);
 
         // Get the list of all available roles (sorted by name).
-        $allRoles = $this->entityManager->getRepository(Role::class)
+        $allCategories = $this->entityManager->getRepository(Role::class)
             ->findBy([], ['name' => 'ASC']);
-        $roleList = [];
-        foreach ($allRoles as $role) {
-            $roleList[$role->getId()] = $role->getName();
+        $categoryList = [];
+        foreach ($allCategories as $category) {
+            $categoryList[$category->getId()] = $category->getName();
         }
 
-        $form->get('roles')->setValueOptions($roleList);
+        $form->get('roles')->setValueOptions($categoryList);
 
         // Check if user has submitted the form
         if ($this->getRequest()->isPost()) {
@@ -172,12 +172,6 @@ class BookController extends AbstractActionController
                     ['action' => 'view', 'id' => $user->getId()]);
             }
         } else {
-
-            $userRoleIds = [];
-            foreach ($user->getRoles() as $role) {
-                $userRoleIds[] = $role->getId();
-            }
-
             $form->setData(array(
                 'full_name' => $user->getFullName(),
                 'email' => $user->getEmail(),

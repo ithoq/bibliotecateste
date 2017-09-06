@@ -3,6 +3,7 @@
 namespace Book\Service;
 
 use Book\Entity\Book;
+use Book\Entity\BookCategory;
 
 /**
  * This service is responsible for adding/editing users
@@ -37,7 +38,9 @@ class BookManager
         // Create new User entity.
         $book = new Book();
         $book->setName($data['name']);
-        $book->setBookCategory($data['category']);
+
+        $bookCategory = $this->entityManager->getRepository(BookCategory::class)->find($data['id_book_category']);
+        $book->setBookCategory($bookCategory);
 
         // Add the entity to the entity manager.
         $this->entityManager->persist($book);
@@ -59,7 +62,7 @@ class BookManager
         }
 
         $book->setName($data['email']);
-        $book->setBookCategory($data['category']);
+        $book->setBookCategory($data['id_book_category']);
 
         // Apply changes to database.
         $this->entityManager->flush();
@@ -71,7 +74,7 @@ class BookManager
      */
     public function checkBookExists($name)
     {
-        $book = $this->entityManager->getRepository(Book::class)->findBy(['name' => $name]);
+        $book = $this->entityManager->getRepository(Book::class)->findOneBy(['name' => $name]);
 
         return $book !== null;
     }
