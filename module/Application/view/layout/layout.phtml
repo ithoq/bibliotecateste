@@ -270,6 +270,17 @@
                         </li>
                     </ul>
                 </li>
+                <li class="start ">
+                    <a href="<?= $this->url('home') ?>">
+                        <i class="material-icons">compare_arrows</i>
+                        <span class="title">Empréstimo\Devo.</span>
+                        <span class=" arrow"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="<?= $this->url('book') ?>">Empréstimo</a></li>
+                        <li><a href="<?= $this->url('book', ['action' => 'add']) ?>">Devolução</a></li>
+                    </ul>
+                </li>
             </ul>
             <div class="side-bar-widgets">
                 <p class="menu-title sm">FOLDER <span class="pull-right"><a href="#" class="create-folder"> <i
